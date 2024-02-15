@@ -12,19 +12,19 @@ class MenuItem {
     required this.link,
     required this.icon,
   });
-
-  static const List<MenuItem> appMenuItems = [
-    MenuItem(
-      title: "Buttons",
-      subTitle: "Various flutter buttons",
-      link: "/buttons",
-      icon: Icons.smart_button_outlined,
-    ),
-    MenuItem(
-      title: "Cards",
-      subTitle: "Stylised container",
-      link: "/card",
-      icon: Icons.credit_card,
-    ),
-  ];
 }
+
+const List<MenuItem> appMenuItems = [
+  MenuItem(
+    title: "Buttons",
+    subTitle: "Various flutter buttons",
+    link: "/buttons",
+    icon: Icons.smart_button_outlined,
+  ),
+  MenuItem(
+    title: "Cards",
+    subTitle: "Stylised container",
+    link: "/card",
+    icon: Icons.credit_card,
+  ),
+];
